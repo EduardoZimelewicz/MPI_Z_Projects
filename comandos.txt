@@ -1,0 +1,16 @@
+mpicc programa1.c -o programa
+mpicc mpi_lab_ex2.c -o mpi_lab_ex2
+
+mpirun programa1
+
+mpirun -np 2 programa1
+
+mpirun --hostfile ips -np 3 programa1
+mpirun --hostfile host1 -np 6 -mca plm_rsh_no_tree_spawn 1 mpi_lab_ex2
+
+yes
+
+"coloca senha"
+
+scp -r ./z_mpi/  lab@1ALAB307:Documentos
+

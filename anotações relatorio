@@ -1,0 +1,1 @@
+erro com o MPI_FINALIZED, invocado antes de um MPI_SEND não permitido pelo padrão MPI
