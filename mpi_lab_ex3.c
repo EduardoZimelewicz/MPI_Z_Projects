@@ -73,7 +73,7 @@ int main (int argc, char *argv[]){
 	
 	double partial_sum;
 	MPI_Gather(data, parcela, MPI_DOUBLE, rbuf, parcela, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-	MPI_Reduce(&sum, &partial_sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+	MPI_Reduce(&sum, &partial_sum, (tarefas - 1), MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
 	
 	
 	if(myrank == 0){
