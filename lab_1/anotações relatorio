@@ -1,0 +1,114 @@
+Anotações lab 1
+
+Exercício 1:
+número de processos: 2
+tempo: 1508335834.695520
+
+número de processos: 4
+tempo: 1508335848.389575 
+
+número de processos: 6
+tempo: 1508335858.432445 
+
+número de processos: 8
+tempo: 1508335866.361875
+
+número de processos: 10
+tempo: 1508335871.036028
+
+//////
+/////
+
+Exercício 2:
+número de processos: 2
+tempo: 1508336373.498441
+
+número de processos: 4
+tempo: 1508336388.733538
+
+número de processos: 6
+tempo: 1508336404.159848
+
+número de processos: 8
+tempo: 1508336419.536614
+
+número de processos: 10
+tempo: 1508336460.835189
+
+////////
+////////
+
+Exercício 3:
+Teste com array de 160
+número de processos: 2
+tempo: 1508336712.880266 
+
+número de processos: 4
+tempo: 1508336754.929105 
+
+número de processos: 6
+tempo: Não foi possível devido ao número de processos não dividir as parcelas igualmente.
+
+número de processos: 8
+tempo: 1508336818.298777
+
+número de processos: 10
+tempo: 1508336845.097604 
+
+\\\\\\\\\
+/////////
+\\\\\\\\\
+/////////
+
+Agora, variando o número de slots em cada máquina
+Exercício 3:
+Teste com array de 160
+slots = 0
+número de processos: 2
+tempo: 1508337982.165273 
+
+número de processos: 4
+tempo: 1508338010.141960
+
+número de processos: 6
+tempo: Não foi possível devido ao número de processos não dividir as parcelas igualmente.
+
+número de processos: 8
+tempo: 1508338030.296014 
+
+número de processos: 10
+tempo: 1508338046.676006
+
+/////////////
+slots = 2
+número de processos: 2
+tempo: 1508338112.763093 
+
+número de processos: 4
+tempo: 1508338204.105026
+
+número de processos: 6
+tempo: Não foi possível devido ao número de processos não dividir as parcelas igualmente.
+
+número de processos: 8
+tempo: Sem slots disponíveis requisitados para cada aplicação.
+
+número de processos: 10
+tempo: Sem slots disponíveis requisitados para cada aplicação.
+
+////////////
+slots = 4
+número de processos: 2
+tempo: 1508338370.202617
+
+número de processos: 4
+tempo: 1508338384.913370
+
+número de processos: 6
+tempo: Não foi possível devido ao número de processos não dividir as parcelas igualmente.
+
+número de processos: 8
+tempo: 1508338503.470690
+
+número de processos: 10
+tempo: 1508338525.781106
