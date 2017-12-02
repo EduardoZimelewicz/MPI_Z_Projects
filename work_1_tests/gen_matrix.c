@@ -4,9 +4,9 @@
 
 int main (){
 
-	FILE *f = fopen("matrix1.txt", "w");
+	FILE *f = fopen("matrix4.txt", "w");
 	int **edge;
-	int N=10;
+	int N=1000;
 	int i, j = 0;	
 
 	edge= malloc(N * sizeof(int *));
